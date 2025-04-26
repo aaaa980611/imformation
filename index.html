@@ -8,20 +8,30 @@
     body {
       margin: 0;
       height: 100vh;
-      background-image: url('電腦版背景.jpg'); /* 預設是電腦版 */
+      background-image: url('https://i.imgur.com/wqp4kf4.png'); /* 預設是電腦版 */
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
     }
-
+    .color-block {
+      width: 400px;        /* 寬度 */
+      height: 300px;       /* 高度 */
+      background-color: rgba(116, 204, 233, 0.345); /* 背景顏色 */
+        
+      border-radius: 10px; /* 邊角圓圓的（可選）*/
+    }
     /* 手機版背景 */
     @media (max-width: 768px) {
       body {
-        background-image: url('手機版背景.jpg');
+        background-image: url('blob:https://imgur.com/2a59bd5b-4db5-4e88-8921-88656ca57d9ehttps://i.imgur.com/4v8eFRl.png');
       }
     }
   </style>
 </head>
 <body>
+    <div class="color-block" style="text-align: left;">
+        <h1 >1</h1>
+    </div>
 </body>
+
 </html>
